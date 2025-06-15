@@ -1,0 +1,52 @@
+1. Write a program to randomly generate N Students scores(0-100).
+   The program will prompt user to enter N students and store the score in an array.
+   Then, ,the program will display a list of score.highest, lowest and average score.
+
+- create Random for integer scores
+- prompt user enter N students
+- create array of size N students
+- create variable int highest, lowest and double average
+- each iteration add into variable
+- display 
+
+
+4. Write a program that rotates 90 degrees clockwise a 3 by 3 matrix
+
+- create a 3x3 matrix
+- use random to generate number in matrix
+- row[1] = col[3] , row[2] = col[2], row[3] = col[1] 
+
+5. Write a program that generates 20 random integers within the range from 0 - 100.
+   Sort array in descending order.
+   Then, accepts an integer input from user.
+   Then, search the array using this number.
+   Compare the performance of linear search and binary search.
+
+- create array of 20 integers
+- use random to generate random numbers 0 - 100
+- display list of the integers
+- sort array in descending order - bubble sort
+- scanner take input from users
+- make linear search algorithm 
+- sort in ascending order
+- make binary search algorithm
+
+Linear Search 
+- loops array and compare using if 
+
+Binary Search
+- create variable middle, low, and high
+- low = 0 and high = array.length - 1
+- do while loop , this will loop as long as low <= high
+- find middle using low + high / 2
+- if search == middle, then break
+- if not determine wether search is less or more than middle
+- if less, high = middle - 1
+- if more, low = middle + 1
+
+6. Write a program that used to create Pascal Triangle in square matrix.
+   Program will accept integer from users and use integer to create Pascal Triangle.
+
+- Scanner to get number of row
+- create square matrix, int[n][n]
+

@@ -1,0 +1,23 @@
+1. Longest Palindrome subString in a given String
+
+ a b c d c b a 
+
+- expands outwards starting from middle
+- what if there is no middle (even number of characters in a String)
+-  
+
+longestPalindrome method
+- do boundary check
+- get length of the string 
+- check if length of string less than 2, just return it back
+- loop through the string character by character and check if the character is a possible center of a palindrome
+- 
+
+expandRange method (s, start, start)
+
+
+2. merge into array
+- take two lines of string from user and interpret them as integer arrays
+
+
+

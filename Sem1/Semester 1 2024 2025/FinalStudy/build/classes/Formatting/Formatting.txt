@@ -1,0 +1,34 @@
+Formatting in Java
+
+using printf
+
+String
+%s - formats a string
+
+Integers
+%d - formats a decimal integer
+%0 - formats an octal integer
+%x - format a hexadecimal integer
+
+Floating-point 
+%f - formats a floating-point (decimal)
+%e - formats a floating point in scientific notation(lowercase)
+%E - formats a floating point in scientific notation(uppercase)
+%g - formats a floating point number in either decimal or scientific notation, depending on the value and
+     precisions
+
+Character
+%c - formats a character
+
+Boolean
+%b - formats a boolean value
+
+Flags:
+'-' - left-justify the output with specified width
+'+' - include a sign for positive number
+'0' - pad with zeros instead of space
+',' - include grouping separators
+'%' - percent sign
+
+Width
+%5d - specify minimum width for the output

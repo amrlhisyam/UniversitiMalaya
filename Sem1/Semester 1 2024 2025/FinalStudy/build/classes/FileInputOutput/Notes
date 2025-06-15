@@ -1,0 +1,35 @@
+Writing to a text File
+
+- PrintWriter 
+- FileOutputStream
+- IOException
+ 
+try{
+PrintWriter outputStream = new PrintWriter(new FileOutputStream("file name"));
+..
+..
+..
+
+}
+catch(IOException e){
+
+}
+
+Reading from a Text File
+
+Scanner
+- Scanner streamObject = new Scanner(new FileInputStream(FIleNAme));
+- need FileInputStream and FileNoutFoundException
+- use nextInt, nextDouble , nextLine can be used to reat data from a text file
+- to check for end of file use 
+    while(inputStream.hasNextLine())
+- to open file from a specified directory 
+  
+BufferedReader
+- BufferedReader inputStream = new BufferedReader(new FileReader(FileName));
+- need BufferedReader, FileReader, FileNotFoundException and IOException class
+
+
+File Class
+- used to check properties of the file
+-   

@@ -1,0 +1,11 @@
+doi,title,subject,author1,author2,author3,author4,author5,author6,author7,author8,keyword,status
+10.1000/xyz123,Understanding AI,Artificial Intelligence,John Doe,Jane Smith,,Emily Davis,,Michael Brown,,Sarah Wilson,AI,Published
+10.1000/xyz124,Data Science Basics,Data Science,Mark Twain,Tom Sawyer,Becky Thatcher,,,,,Data Science,Under Review
+10.1000/xyz125,Machine Learning,Machine Learning,Albert Einstein,Isaac Newton,Galileo Galilei,Stephen Hawking,Richard Feynman,,Marie Curie,ML,Published
+10.1000/xyz126,Corrupted Record,Subject Missing,Author1,Author2,Author3,Author4,Author5,Author6,Author7,Author8,Keyword,Deleted
+10.1000/xyz127,Deep Learning,Deep Learning,John Doe,Jane Smith,Emily Davis,Michael Brown,Sarah Wilson,,AI,Published
+10.1000/xyz128,Data Analysis,Data Analysis,Mark Twain,Tom Sawyer,Becky Thatcher,,,,,Data Analysis,Under Review
+10.1000/xyz129,Invalid DOI,Invalid Data,,,,,,,,,,Deleted
+10.1000/xyz130,Another Valid Record,Subject,Author1,Author2,Author3,Author4,Author5,Author6,Author7,Author8,Keyword,Published
+10.1000/xyz131,Research on Quantum Computing,Quantum Computing,Albert Einstein,Richard Feynman,,,,,,,Quantum,Published
+10.1000/xyz132,Exploring the Universe,Astronomy,Isaac Newton,Galileo Galilei,,,,,,,Astronomy,Deleted

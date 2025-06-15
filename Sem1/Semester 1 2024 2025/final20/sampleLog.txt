@@ -1,0 +1,5 @@
+1 2023-10-01 12:00:00 User1 Login Successful 192.168.1.1 Chrome Windows 10 1024 768 1 0 15
+2 2023-10-01 12:05:00 User2 Login Failed 192.168.1.2 Firefox macOS 1280 800 0 1 10
+3 2023-10-01 12:10:00 User3 Login Successful 192.168.1.3 Safari iOS 750 1334 1 0 20
+4 2023-10-01 12:15:00 User4 Login Successful 192.168.1.4 Edge Windows 11 1920 1080 1 0 25
+5 2023-10-01 12:20:00 User5 Login Failed 192.168.1.5 Chrome Android 1080 1920 0 1 30

@@ -1,0 +1,15 @@
+CREATE TABLE `table_1`(
+    `id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `name` VARCHAR(255) NOT NULL,
+    `date` DATETIME NOT NULL
+);
+CREATE TABLE `table_2`(
+    `id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `booktitle` VARCHAR(255) NOT NULL,
+    `booktype` VARCHAR(255) NOT NULL,
+    `available` BOOLEAN NOT NULL,
+    `currentborrower` VARCHAR(255) NOT NULL
+);
+ALTER TABLE
+    `table_1` ADD CONSTRAINT `table_1_name_foreign` FOREIGN KEY(`name`) REFERENCES `table_2`(`id`);
+
